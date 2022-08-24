@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+#container {
+  text-align: center;
+  width: 500px;
+  height: 750px;
+  display: block;
+  margin: 0 auto;
+}
+h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  padding: 20px;
+}
+
+header {
+  background: #6943ff;
+  height: 285px;
+}
+
+.input-box {
+  width: 85px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  background: #6943ff;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.convert-btn {
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  padding: 10px 5px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background: #f4f4f4;
+  align-items: center;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+
+  text-align: center;
+
+  color: #5a537b;
+}
+
+.length-section {
+  background: #ffffff;
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+}
+.volume-section {
+  background: #ffffff;
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+}
+.mass-section {
+  background: #ffffff;
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+}
